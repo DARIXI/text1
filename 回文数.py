@@ -5,5 +5,5 @@ def isPalindrome( x: int) -> bool:
         if s[i] != s[l - i - 1]:
             return False
     return True
-
-print(isPalindrome(212))
+x=input("请输入一个数，我来判断它是不是回文数："+'\n')
+print(isPalindrome(x))
