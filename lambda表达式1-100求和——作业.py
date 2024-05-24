@@ -6,5 +6,6 @@ def test_func(sum_num):
     print(result)
 #定义一个lambda表达式，它接受一个可迭代对象x，并返回其元素的和
 dy = lambda x: sum(x)
+#调用这个函数，并输出结果
 test_func(dy)
 
